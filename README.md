@@ -1,60 +1,151 @@
-🏥 Clinic Hours Finder Pro
+<div align="center">
 
-Extract Clinic Opening Hours With 3 Powerful Intelligent Methods
+<h1>🏥 <strong>Clinic Hours Finder Pro</strong></h1>
+<h3>Extract Clinic Opening Hours With 3 Intelligent, Auto-Fallback Methods</h3>
 
-Each method uses 3 automatic fallback attempts to guarantee the highest success rate when fetching clinic opening hours from the web.
+<br>
 
-<p align="center"> <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" /> <img src="https://img.shields.io/badge/Node.js-Supported-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/Scraping-Clinic%20Hours-orange?style=for-the-badge" /> <img src="https://img.shields.io/badge/Mode-3%20Engines-purple?style=for-the-badge" /> </p>
-🚀 Start Now
+<a href="#start-now">
+  <img src="https://img.shields.io/badge/Click_To_Start-Clinic%20Hours%20Finder%20Pro-blue?style=for-the-badge" />
+</a>
 
-This tool intelligently pulls clinic opening hours using three different scraping/lookup engines, each with three internal strategies.
+<br><br>
 
-Maximum accuracy.
-Maximum automation.
-Minimum manual effort.
+<img src="https://img.shields.io/badge/3_Methods-9_Total_Attempts-success?style=for-the-badge">
+<img src="https://img.shields.io/badge/Accuracy-High-green?style=for-the-badge">
+<img src="https://img.shields.io/badge/Scraping-Automated-orange?style=for-the-badge">
 
-🔥 3 Methods × 3 Attempts Each = 9 Chances to Get the Correct Hours
-🌐 1. Basic Scraper (FREE)
+</div>
 
-No API required — scrape using standard search techniques.
+---
 
-Attempt	Description
-Attempt 1	Google Search scraping
-Attempt 2	Google Maps scraping
-Attempt 3	Extract from Official Website
-🔑 2. SerpAPI (RECOMMENDED)
+<style>
+/* Highlight boxes */
+.feature-box {
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #d1d1d1;
+}
 
-Most accurate method — ideal for large datasets (up to thousands of clinics).
+.method-title {
+  font-size: 22px;
+  font-weight: bold;
+}
 
-Attempt	Description
-Attempt 1	Google Search API
-Attempt 2	Google Maps API
-Attempt 3	Direct structured search
-🗺️ 3. Google Places (PREMIUM)
+.attempt-list li {
+  margin-bottom: 6px;
+}
 
-Perfect when you need real-time verified opening hours.
+.start-button {
+  background: #007bff;
+  color: white !important;
+  padding: 12px 22px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-Attempt	Description
-Attempt 1	Full Place Search (name + address + keywords)
-Attempt 2	Name-only fuzzy search
-Attempt 3	Text-Search fallback
-📂 How It Works
+.start-button:hover {
+  background: #0056d6;
+}
+</style>
+
+---
+
+<div id="start-now"></div>
+
+# 🚀 Start Now
+Click any method to expand:
+
+---
+
+<details>
+<summary><h2>🌐 Basic Scraper (FREE)</h2></summary>
+<div class="feature-box">
+
+<p class="method-title">Free mode – No API required</p>
+
+<ul class="attempt-list">
+  <li>✓ <strong>Attempt 1:</strong> Google Search scraping</li>
+  <li>✓ <strong>Attempt 2:</strong> Google Maps scraping</li>
+  <li>✓ <strong>Attempt 3:</strong> Official Website extraction</li>
+</ul>
+
+</div>
+</details>
+
+---
+
+<details>
+<summary><h2>🔑 SerpAPI (RECOMMENDED)</h2></summary>
+<div class="feature-box">
+
+<p class="method-title">Highest accuracy using SerpAPI</p>
+
+<ul class="attempt-list">
+  <li>✓ <strong>Attempt 1:</strong> Google Search API</li>
+  <li>✓ <strong>Attempt 2:</strong> Google Maps API</li>
+  <li>✓ <strong>Attempt 3:</strong> Direct structured search</li>
+</ul>
+
+</div>
+</details>
+
+---
+
+<details>
+<summary><h2>🗺️ Google Places (PREMIUM)</h2></summary>
+<div class="feature-box">
+
+<p class="method-title">Real-time business info from Google</p>
+
+<ul class="attempt-list">
+  <li>✓ <strong>Attempt 1:</strong> Full Search (name + address)</li>
+  <li>✓ <strong>Attempt 2:</strong> Name-only fuzzy search</li>
+  <li>✓ <strong>Attempt 3:</strong> Text-search fallback</li>
+</ul>
+
+</div>
+</details>
+
+---
+
+# 🖼️ Screenshots
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/SadeeshaJayaweera/clinic-hours-finder/main/screenshots/screen1.png" width="80%" alt="Screenshot 1">
+
+<br><br>
+
+<img src="https://raw.githubusercontent.com/SadeeshaJayaweera/clinic-hours-finder/main/screenshots/screen2.png" width="80%" alt="Screenshot 2">
+
+<br><br>
+
+<img src="https://raw.githubusercontent.com/SadeeshaJayaweera/clinic-hours-finder/main/screenshots/screen3.png" width="80%" alt="Screenshot 3">
+
+</div>
+
+---
+
+# 📂 How It Works
+
+```text
 Clinic Hours Finder Pro
 │
 ├── 3 engines (Basic, SerpAPI, Google Places)
-│      └── each engine tries 3 intelligent fallbacks
+│      └── each engine attempts 3 fallback strategies
 │
 ├── Input: CSV file with clinic names
-├── Output: JSON with opening hours Mon–Sun
-└── Automatic retries + error handling
-
+└── Output: JSON with accurate opening hours
 🛠️ Installation
 git clone https://github.com/SadeeshaJayaweera/clinic-hours-finder
 cd clinic-hours-finder
 npm install
 
 ▶️ Usage
-Basic Mode (Free — no API keys required)
+Basic Mode (Free)
 node app.js --mode=basic --input=clinics.csv --output=result.json
 
 SerpAPI Mode
@@ -63,42 +154,23 @@ SERPAPI_KEY=your_key node app.js --mode=serpapi --input=clinics.csv --output=res
 Google Places Mode
 GOOGLE_API_KEY=your_key node app.js --mode=places --input=clinics.csv --output=result.json
 
-📤 Input CSV Format
-clinic_name,address
-Happy Dental Clinic,Colombo
-Sunshine Medical Center,Kandy
-
 📥 Output Example
 {
   "clinic": "Happy Dental Clinic",
   "address": "Colombo",
   "hours": {
     "monday": "9:00 AM – 6:00 PM",
-    "tuesday": "9:00 AM – 6:00 PM",
-    "wednesday": "9:00 AM – 6:00 PM",
-    ...
+    "tuesday": "9:00 AM – 6:00 PM"
   },
   "source": "SerpAPI → Google Maps API"
 }
 
-💡 Why Clinic Hours Finder Pro?
+🤝 Contributing
 
-✔ 3 engines with 3 fallback strategies each
-
-✔ Avoid failed lookups
-
-✔ Designed for scale (1–2000+ clinics)
-
-✔ Smart error handling
-
-✔ Accurate hours from verified sources
-
-✔ Perfect for health-tech, apps, directories, delivery services, and more
-
-🤝 Contributions Welcome
-
-Feel free to open issues or submit pull requests to enhance accuracy, add UI, integrate Firebase, or expand scraping logic.
+PRs & feature suggestions are welcome!
 
 📜 License
 
-MIT — Free to use, modify, and distribute.
+MIT License — free for personal & commercial use.
+
+<div align="center"><h3>Made with ❤️ by Sadeesha</h3></div> ```
