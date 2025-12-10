@@ -167,13 +167,27 @@ with consistent and high-success extraction results.
 <div align="center">
 
 
-<h3>Homepage of the Application</h3>
+<h3><b></b>Homepage of the Application<b></b></h3>
 
 <img src="App Preview/Homepage.png" class="screenshot">
 
 <img src="https://raw.githubusercontent.com/SadeeshaJayaweera/clinic-hours-finder/main/screenshots/screen2.png" class="screenshot">
 
-<img src="https://raw.githubusercontent.com/SadeeshaJayaweera/clinic-hours-finder/main/screenshots/screen3.png" class="screenshot">
+<h3><b></b>Methods Selection Page<b></b></h3>
+
+<img src="App Preview/Methods.png" class="screenshot">
+
+<h3><b></b>Google Places API Method<b></b></h3>
+
+<img src="App Preview/Google_Places.png">
+
+<h3><b></b>SerpAPI Method<b></b></h3>
+
+<img src="App Preview/Serp_API.png">
+
+<h3><b></b>Output Preview Page of Basic Scraping Without any API <b></b></h3>
+
+<img src="App Preview/Output_BasicScrape.png">
 
 </div>
 
