@@ -29,54 +29,6 @@
 
 <hr style="border-color:#333;">
 
-
-<!-- INLINE CSS (GitHub-safe) -->
-<style>
-.section-title {
-  font-size: 30px;
-  margin-top: 40px;
-  color: #fafafa;
-}
-
-.card-container {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.card {
-  background: #111;
-  padding: 20px;
-  border-radius: 12px;
-  border: 1px solid #333;
-  width: 31%;
-  min-width: 260px;
-}
-
-.card h3 {
-  margin-top: 0;
-  color: #fff;
-}
-
-.badge {
-  display: inline-block;
-  padding: 4px 10px;
-  background: #222;
-  border-radius: 6px;
-  color: #fff;
-  font-size: 13px;
-  margin-bottom: 10px;
-}
-
-.screenshot {
-  width: 85%;
-  border-radius: 12px;
-  margin-bottom: 20px;
-  border: 1px solid #333;
-}
-</style>
-
-
 <!-- INTRO -->
 <div id="start"></div>
 
