@@ -1,3 +1,4 @@
+
 <div align="center">
 
 <!-- TITLE -->
@@ -156,3 +157,14 @@ Clinic Hours Finder Pro
 │
 ├── Input: CSV file with clinic names
 └── Output: JSON with accurate opening hours
+
+<br>
+
+<!-- CONTRIBUTING -->
+<h2>🤝 Contributing</h2>
+<p>Pull requests are welcome!</p>
+
+<!-- FOOTER -->
+<hr>
+<p align="center">Built with ❤️ by <strong>Sadeesha Jayaweera</strong></p>
+</div>
