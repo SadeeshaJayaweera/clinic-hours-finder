@@ -1,176 +1,144 @@
-<div align="center">
+<div style="font-family: Arial, sans-serif; line-height: 1.6;">
 
-<h1>🏥 <strong>Clinic Hours Finder Pro</strong></h1>
-<h3>Extract Clinic Opening Hours With 3 Intelligent, Auto-Fallback Methods</h3>
+    <!-- HEADER -->
+    <h1 align="center" style="font-size: 40px; margin-bottom: 10px;">
+        🏥 Clinic Hours Finder Pro
+    </h1>
 
-<br>
+    <p align="center" style="font-size: 18px;">
+        <strong>Extract opening hours from any clinic — using three powerful scraping methods.</strong><br>
+        Smart fallback system → 3 attempts per method → Maximum success rate.
+    </p>
 
-<a href="#start-now">
-  <img src="https://img.shields.io/badge/Click_To_Start-Clinic%20Hours%20Finder%20Pro-blue?style=for-the-badge" />
-</a>
+    <div align="center" style="margin-top: 15px;">
+        <img src="https://raw.githubusercontent.com/SadeeshaJayaweera/clinic-hours-finder/main/screenshots/app-preview.png"
+             alt="App Preview" width="80%" style="border-radius: 10px; box-shadow: 0 0 8px rgba(0,0,0,0.2);">
+    </div>
 
-<br><br>
+    <br><br>
 
-<img src="https://img.shields.io/badge/3_Methods-9_Total_Attempts-success?style=for-the-badge">
-<img src="https://img.shields.io/badge/Accuracy-High-green?style=for-the-badge">
-<img src="https://img.shields.io/badge/Scraping-Automated-orange?style=for-the-badge">
+    <!-- QUICK START -->
+    <h2>🚀 Start Now</h2>
+    <p>Choose from 3 powerful scraping modes — each performing 3 automated fallback attempts.</p>
 
-</div>
+    <table style="width: 100%; border-collapse: collapse;">
+        <tr>
+            <td style="width: 33%; vertical-align: top; padding: 10px; border: 1px solid #ddd;">
+                <h3>🌐 Basic Scraper – <span style="color: green;">FREE</span></h3>
+                <ul>
+                    <li>✓ Attempt 1: Google Search</li>
+                    <li>✓ Attempt 2: Google Maps</li>
+                    <li>✓ Attempt 3: Official Website</li>
+                </ul>
+            </td>
 
----
+            <td style="width: 33%; vertical-align: top; padding: 10px; border: 1px solid #ddd;">
+                <h3>🔑 SerpAPI – <span style="color: orange;">RECOMMENDED</span></h3>
+                <ul>
+                    <li>✓ Attempt 1: Google Search API</li>
+                    <li>✓ Attempt 2: Google Maps API</li>
+                    <li>✓ Attempt 3: Direct Search (JSON fallback)</li>
+                </ul>
+            </td>
 
-<style>
-/* Highlight boxes */
-.feature-box {
-  padding: 15px;
-  border-radius: 12px;
-  margin-bottom: 15px;
-  border: 1px solid #d1d1d1;
-}
+            <td style="width: 33%; vertical-align: top; padding: 10px; border: 1px solid #ddd;">
+                <h3>🗺️ Google Places – <span style="color: blue;">PREMIUM</span></h3>
+                <ul>
+                    <li>✓ Attempt 1: Full Search</li>
+                    <li>✓ Attempt 2: Name Only Search</li>
+                    <li>✓ Attempt 3: Text Search</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
 
-.method-title {
-  font-size: 22px;
-  font-weight: bold;
-}
+    <br><br>
 
-.attempt-list li {
-  margin-bottom: 6px;
-}
+    <!-- FEATURES -->
+    <h2>✨ Features</h2>
 
-.start-button {
-  background: #007bff;
-  color: white !important;
-  padding: 12px 22px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-}
+    <ul>
+        <li>✔ Three extraction modes (Basic, SerpAPI, Google Places)</li>
+        <li>✔ Automatic fallback system (9 attempts total)</li>
+        <li>✔ Clean UI + real-time status updates</li>
+        <li>✔ CSV import for batch clinic lists</li>
+        <li>✔ JSON output for integrations</li>
+        <li>✔ Built-in error handling + rate-limit protection</li>
+        <li>✔ Proxy switching for Basic scraper</li>
+    </ul>
 
-.start-button:hover {
-  background: #0056d6;
-}
-</style>
+    <br>
 
----
+    <!-- HOW IT WORKS -->
+    <h2>🔧 How It Works</h2>
 
-<div id="start-now"></div>
+    <ol>
+        <li>Upload CSV containing clinic names + locations.</li>
+        <li>Choose scraping mode.</li>
+        <li>App performs 3 attempts per method.</li>
+        <li>Hours are extracted & formatted into JSON.</li>
+        <li>Export or download the final dataset.</li>
+    </ol>
 
-# 🚀 Start Now
-Click any method to expand:
+    <br>
 
----
+    <!-- SCREENSHOTS -->
+    <h2>🖼️ Screenshots</h2>
 
-<details>
-<summary><h2>🌐 Basic Scraper (FREE)</h2></summary>
-<div class="feature-box">
+    <div>
+        <h3>Landing Page</h3>
+        <img src="https://raw.githubusercontent.com/SadeeshaJayaweera/clinic-hours-finder/main/screenshots/landing.png"
+             alt="Landing Screenshot" width="100%" style="border-radius: 10px;">
 
-<p class="method-title">Free mode – No API required</p>
+        <h3>Main Dashboard</h3>
+        <img src="https://raw.githubusercontent.com/SadeeshaJayaweera/clinic-hours-finder/main/screenshots/dashboard.png"
+             alt="Dashboard Screenshot" width="100%" style="border-radius: 10px;">
 
-<ul class="attempt-list">
-  <li>✓ <strong>Attempt 1:</strong> Google Search scraping</li>
-  <li>✓ <strong>Attempt 2:</strong> Google Maps scraping</li>
-  <li>✓ <strong>Attempt 3:</strong> Official Website extraction</li>
-</ul>
+        <h3>Extraction Output</h3>
+        <img src="https://raw.githubusercontent.com/SadeeshaJayaweera/clinic-hours-finder/main/screenshots/output.png"
+             alt="Output Screenshot" width="100%" style="border-radius: 10px;">
+    </div>
 
-</div>
-</details>
+    <br><br>
 
----
+    <!-- SETUP -->
+    <h2>⚙️ Installation & Setup</h2>
 
-<details>
-<summary><h2>🔑 SerpAPI (RECOMMENDED)</h2></summary>
-<div class="feature-box">
-
-<p class="method-title">Highest accuracy using SerpAPI</p>
-
-<ul class="attempt-list">
-  <li>✓ <strong>Attempt 1:</strong> Google Search API</li>
-  <li>✓ <strong>Attempt 2:</strong> Google Maps API</li>
-  <li>✓ <strong>Attempt 3:</strong> Direct structured search</li>
-</ul>
-
-</div>
-</details>
-
----
-
-<details>
-<summary><h2>🗺️ Google Places (PREMIUM)</h2></summary>
-<div class="feature-box">
-
-<p class="method-title">Real-time business info from Google</p>
-
-<ul class="attempt-list">
-  <li>✓ <strong>Attempt 1:</strong> Full Search (name + address)</li>
-  <li>✓ <strong>Attempt 2:</strong> Name-only fuzzy search</li>
-  <li>✓ <strong>Attempt 3:</strong> Text-search fallback</li>
-</ul>
-
-</div>
-</details>
-
----
-
-# 🖼️ Screenshots
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/SadeeshaJayaweera/clinic-hours-finder/main/screenshots/screen1.png" width="80%" alt="Screenshot 1">
-
-<br><br>
-
-<img src="https://raw.githubusercontent.com/SadeeshaJayaweera/clinic-hours-finder/main/screenshots/screen2.png" width="80%" alt="Screenshot 2">
-
-<br><br>
-
-<img src="https://raw.githubusercontent.com/SadeeshaJayaweera/clinic-hours-finder/main/screenshots/screen3.png" width="80%" alt="Screenshot 3">
-
-</div>
-
----
-
-# 📂 How It Works
-
-```text
-Clinic Hours Finder Pro
-│
-├── 3 engines (Basic, SerpAPI, Google Places)
-│      └── each engine attempts 3 fallback strategies
-│
-├── Input: CSV file with clinic names
-└── Output: JSON with accurate opening hours
-🛠️ Installation
+```bash
 git clone https://github.com/SadeeshaJayaweera/clinic-hours-finder
 cd clinic-hours-finder
 npm install
+npm start
 
-▶️ Usage
-Basic Mode (Free)
-node app.js --mode=basic --input=clinics.csv --output=result.json
+<p><strong>Optional:</strong> Add your API keys to <code>.env</code></p>
 
-SerpAPI Mode
-SERPAPI_KEY=your_key node app.js --mode=serpapi --input=clinics.csv --output=result.json
+SERPAPI_KEY=your_key_here
+GOOGLE_PLACES_KEY=your_key_here
+<br>
 
-Google Places Mode
-GOOGLE_API_KEY=your_key node app.js --mode=places --input=clinics.csv --output=result.json
+<!-- CSV STRUCTURE -->
+<h2>📄 CSV Structure</h2>
 
-📥 Output Example
+<br>
+
+<!-- OUTPUT FORMAT -->
+<h2>📦 Output Example (JSON)</h2>
+
 {
-  "clinic": "Happy Dental Clinic",
-  "address": "Colombo",
-  "hours": {
-    "monday": "9:00 AM – 6:00 PM",
-    "tuesday": "9:00 AM – 6:00 PM"
-  },
-  "source": "SerpAPI → Google Maps API"
+  "clinic": "ABC Dental Clinic",
+  "monday": "8:00 AM – 5:00 PM",
+  "tuesday": "8:00 AM – 5:00 PM",
+  "wednesday": "8:00 AM – 5:00 PM"
 }
 
-🤝 Contributing
+<br>
 
-PRs & feature suggestions are welcome!
+<!-- CONTRIBUTING -->
+<h2>🤝 Contributing</h2>
+<p>Pull requests are welcome!</p>
 
-📜 License
+<!-- FOOTER -->
+<hr>
+<p align="center">Built with ❤️ by <strong>Sadeesha Jayaweera</strong></p>
 
-MIT License — free for personal & commercial use.
 
-<div align="center"><h3>Made with ❤️ by Sadeesha</h3></div> ```
