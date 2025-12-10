@@ -166,7 +166,10 @@ with consistent and high-success extraction results.
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/SadeeshaJayaweera/clinic-hours-finder/main/screenshots/screen1.png" class="screenshot">
+
+<h3>Homepage of the Application</h3>
+
+<img src="App Preview/Homepage.png" class="screenshot">
 
 <img src="https://raw.githubusercontent.com/SadeeshaJayaweera/clinic-hours-finder/main/screenshots/screen2.png" class="screenshot">
 
